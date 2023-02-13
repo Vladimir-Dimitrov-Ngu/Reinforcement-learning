@@ -1,0 +1,10 @@
+\babel@toc {russian}{}\relax 
+\contentsline {section}{Markov decision process}{3}{section*.2}%
+\contentsline {subsection}{Expected objective}{5}{section*.3}%
+\contentsline {subsubsection}{State value function}{5}{section*.4}%
+\contentsline {subsubsection}{Action value function}{6}{section*.5}%
+\contentsline {subsection}{Bellman expectation equation}{7}{section*.6}%
+\contentsline {subsubsection}{Bellman optimality equation}{8}{section*.7}%
+\contentsline {subsection}{Generalized Policy Iteration}{9}{section*.8}%
+\contentsline {subsubsection}{Policy evaluation}{9}{section*.9}%
+\contentsline {subsubsection}{Policy improvement}{10}{section*.10}%
