@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.2.25)  13 FEB 2023 20:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.2.25)  16 FEB 2023 10:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**MDP.tex
-(./MDP.tex
+**q-learning.tex
+(./q-learning.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-21>
 (c:/texlive/2021/texmf-dist/tex/latex/base/article.cls
@@ -705,8 +705,8 @@ File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count308
 \l__pdf_internal_box=\box63
 )
-(./MDP.aux)
-\openout1 = `MDP.aux'.
+(./q-learning.aux)
+\openout1 = `q-learning.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
 LaTeX Font Info:    ... okay on input line 54.
@@ -729,7 +729,8 @@ LaTeX Font Info:    ... okay on input line 54.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 54.
 LaTeX Font Info:    ... okay on input line 54.
 LaTeX Info: Redefining \th on input line 54.
- (c:/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+(c:/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count309
 \scratchdimen=\dimen193
@@ -768,9 +769,9 @@ LaTeX Info: Redefining \ref on input line 54.
 LaTeX Info: Redefining \pageref on input line 54.
 LaTeX Info: Redefining \nameref on input line 54.
 
-(./MDP.out) (./MDP.out)
+(./q-learning.out) (./q-learning.out)
 \@outlinefile=\write3
-\openout3 = `MDP.out'.
+\openout3 = `q-learning.out'.
 
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
 
@@ -841,101 +842,36 @@ LaTeX Font Warning: Font shape `PU/cmr/m/up' undefined
 
 [1
 
-{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./MDP.toc
-LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 3.
-LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <8> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 3.
-LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <6> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 3.
-LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3.
-LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3.
-LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <6> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3.
-)
+{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./q-learning.toc)
 \tf@toc=\write4
-\openout4 = `MDP.toc'.
+\openout4 = `q-learning.toc'.
 
-
-[2]
-Overfull \hbox (3.2816pt too wide) in paragraph at lines 72--73
-\T2A/cmr/m/up/12 thought of as maximization of the expected value of the cumula
-tive
- []
-
-<../Image/screenshot001.png, id=70, 578.91281pt x 147.55125pt>
-File: ../Image/screenshot001.png Graphic file (type png)
-<use ../Image/screenshot001.png>
-Package pdftex.def Info: ../Image/screenshot001.png  used on input line 88.
-(pdftex.def)             Requested size: 390.0pt x 99.40141pt.
-[3]
-Overfull \hbox (5.18826pt too wide) in paragraph at lines 119--120
-[]\T2A/cmr/m/up/12 Reward shaping - we could add to all rewards in MDP values o
-f potential-
- []
-
-[4 <../Image/screenshot001.png (PNG copy)>] [5] [6]
-<../Image/screenshot002.png, id=104, 506.6428pt x 173.14688pt>
-File: ../Image/screenshot002.png Graphic file (type png)
-<use ../Image/screenshot002.png>
-Package pdftex.def Info: ../Image/screenshot002.png  used on input line 189.
-(pdftex.def)             Requested size: 390.0pt x 133.28651pt.
-<../Image/screenshot003.png, id=105, 428.35031pt x 169.38281pt>
-File: ../Image/screenshot003.png Graphic file (type png)
-<use ../Image/screenshot003.png>
-Package pdftex.def Info: ../Image/screenshot003.png  used on input line 200.
-(pdftex.def)             Requested size: 390.0pt x 154.2187pt.
- [7 <../Image/screenshot002.png (PNG copy)>]
-Overfull \hbox (7.33348pt too wide) in paragraph at lines 215--216
-[]\T2A/cmr/bx/n/12 Notes: in any finite MDP there is always at least one determ
-inistic
- []
-
-[8 <../Image/screenshot003.png (PNG copy)>]
-<../Image/screenshot004.png, id=117, 590.205pt x 279.29344pt>
-File: ../Image/screenshot004.png Graphic file (type png)
-<use ../Image/screenshot004.png>
-Package pdftex.def Info: ../Image/screenshot004.png  used on input line 246.
-(pdftex.def)             Requested size: 390.0pt x 184.55585pt.
- [9] [10 <../Image/screenshot004.png (PNG copy)>] (./MDP.aux)
+ [2] [3] (./q-learning.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `MDP.out' has not changed.
-(rerunfilecheck)             Checksum: 5E61EB06BC50F886339F40A21DCF0F22;1522.
+Package rerunfilecheck Info: File `q-learning.out' has not changed.
+(rerunfilecheck)             Checksum: 5A2AA81B6A1B8D38DB21403E5AEC83A3;36.
  ) 
 Here is how much of TeX's memory you used:
- 14893 strings out of 478278
- 230996 string characters out of 5850546
- 534563 words of memory out of 5000000
- 32754 multiletter control sequences out of 15000+600000
- 488217 words of font info for 80 fonts, out of 8000000 for 9000
+ 14729 strings out of 478278
+ 228405 string characters out of 5850546
+ 527435 words of memory out of 5000000
+ 32655 multiletter control sequences out of 15000+600000
+ 479715 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,11n,76p,625b,492s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}{c:/tex
-live/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2021
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2021/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2021/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2021/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.
-pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/tex
-live/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2021/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2021/texmf-dist/fonts/ty
-pe1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/
-public/amsfonts/symbols/msbm10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/publ
-ic/cm-super/sfbx1200.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-supe
-r/sfbx1440.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1728
-.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/t
-exlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/202
-1/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb>
-Output written on MDP.pdf (10 pages, 465370 bytes).
+ 68i,6n,76p,375b,394s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<c:/tex
+live/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2021/
+texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2021/texmf-dist
+/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2021/texmf-dist/fonts/typ
+e1/public/cm-super/sfrm1440.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/
+cm-super/sfrm2074.pfb>
+Output written on q-learning.pdf (3 pages, 55609 bytes).
 PDF statistics:
- 202 PDF objects out of 1000 (max. 8388607)
- 157 compressed objects within 2 object streams
- 29 named destinations out of 1000 (max. 500000)
- 113 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 54 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
+ 6 named destinations out of 1000 (max. 500000)
+ 29 words of extra memory for PDF output out of 10000 (max. 10000000)
 
